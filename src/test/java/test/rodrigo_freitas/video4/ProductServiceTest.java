@@ -12,9 +12,6 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 
 import test.rodrigo_freitas.video3.Product;
 import test.rodrigo_freitas.video3.ProductRepository;
-import test.rodrigo_freitas.video4.ProductService4;
-import test.rodrigo_freitas.video4.Transportadora;
-import test.rodrigo_freitas.video4.TransportadoraRepository;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT )
 class ProductServiceTest {

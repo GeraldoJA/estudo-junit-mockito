@@ -8,10 +8,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import test.rodrigo_freitas.video3.Product;
-import test.rodrigo_freitas.video3.ProductRepository;
-import test.rodrigo_freitas.video3.ProductService;
-
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT )
 class ProductServiceTest {
 

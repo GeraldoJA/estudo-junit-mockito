@@ -3,8 +3,6 @@ package test.rodrigo_freitas.video1;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import test.rodrigo_freitas.video1.Calculadora;
-
 class CalculadoraTest {
 
 	@Test
