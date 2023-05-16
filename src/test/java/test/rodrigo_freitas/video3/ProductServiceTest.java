@@ -1,4 +1,4 @@
-package testesGroup.teste.video3;
+package test.rodrigo_freitas.video3;
 
 import java.math.BigDecimal;
 import java.sql.SQLException;
@@ -8,9 +8,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import testesGroup.video3.Product;
-import testesGroup.video3.ProductRepository;
-import testesGroup.video3.ProductService;
+import test.rodrigo_freitas.video3.Product;
+import test.rodrigo_freitas.video3.ProductRepository;
+import test.rodrigo_freitas.video3.ProductService;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT )
 class ProductServiceTest {

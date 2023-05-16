@@ -1,4 +1,4 @@
-package testesGroup.video4;
+package test.rodrigo_freitas.video4;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

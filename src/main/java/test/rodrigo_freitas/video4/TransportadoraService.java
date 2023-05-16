@@ -1,9 +1,9 @@
-package testesGroup.video4;
+package test.rodrigo_freitas.video4;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import testesGroup.video3.Product;
+import test.rodrigo_freitas.video3.Product;
 
 @Service
 public class TransportadoraService {

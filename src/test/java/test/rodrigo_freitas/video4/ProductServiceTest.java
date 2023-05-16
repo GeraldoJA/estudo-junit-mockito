@@ -1,4 +1,4 @@
-package testesGroup.teste.video4;
+package test.rodrigo_freitas.video4;
 
 import java.math.BigDecimal;
 import java.util.Optional;
@@ -10,11 +10,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
-import testesGroup.video3.Product;
-import testesGroup.video3.ProductRepository;
-import testesGroup.video4.ProductService4;
-import testesGroup.video4.Transportadora;
-import testesGroup.video4.TransportadoraRepository;
+import test.rodrigo_freitas.video3.Product;
+import test.rodrigo_freitas.video3.ProductRepository;
+import test.rodrigo_freitas.video4.ProductService4;
+import test.rodrigo_freitas.video4.Transportadora;
+import test.rodrigo_freitas.video4.TransportadoraRepository;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT )
 class ProductServiceTest {

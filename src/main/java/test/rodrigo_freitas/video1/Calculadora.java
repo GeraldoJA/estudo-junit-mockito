@@ -1,4 +1,4 @@
-package testesGroup.video1;
+package test.rodrigo_freitas.video1;
 
 public class Calculadora {
 	

@@ -1,4 +1,4 @@
-package testesGroup.teste.video2;
+package test.rodrigo_freitas.video2;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import testesGroup.video2.User;
+import test.rodrigo_freitas.video2.User;
 
 class UserTest {
 

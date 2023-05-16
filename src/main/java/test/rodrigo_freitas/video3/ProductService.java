@@ -1,4 +1,4 @@
-package testesGroup.video3;
+package test.rodrigo_freitas.video3;
 
 import java.sql.SQLException;
 import java.util.Optional;

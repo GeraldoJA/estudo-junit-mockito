@@ -1,4 +1,4 @@
-package testesGroup.video4;
+package test.rodrigo_freitas.video4;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

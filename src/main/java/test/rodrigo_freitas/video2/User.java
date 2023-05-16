@@ -1,4 +1,4 @@
-package testesGroup.video2;
+package test.rodrigo_freitas.video2;
 
 public class User {
 	

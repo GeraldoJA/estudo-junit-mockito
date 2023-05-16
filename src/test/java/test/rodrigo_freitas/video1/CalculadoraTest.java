@@ -1,9 +1,9 @@
-package testesGroup.teste.video1;
+package test.rodrigo_freitas.video1;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import testesGroup.video1.Calculadora;
+import test.rodrigo_freitas.video1.Calculadora;
 
 class CalculadoraTest {
 
