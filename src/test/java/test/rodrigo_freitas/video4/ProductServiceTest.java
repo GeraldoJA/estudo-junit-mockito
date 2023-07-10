@@ -22,7 +22,6 @@ class ProductServiceTest {
 	@Autowired
 	private TransportadoraRepository transportadoraRepository;
 		
-	//TODO - atenção
 	@MockBean
 	private ProductRepository productRepository;
 
@@ -31,7 +30,7 @@ class ProductServiceTest {
 		
 		Product product = new Product(1, "camiseta", "PAGO",  BigDecimal.TEN);
 		
-		//TODO - o productRepository.findById vai ser chamado na classe ProductService4
+		//o productRepository.findById vai ser chamado na classe ProductService4
 		Mockito.when( this.productRepository.findById(Mockito.any()) ).thenReturn( Optional.of(product) );
 		
 		this.productService4.enviarParaTransportadora(1, true);

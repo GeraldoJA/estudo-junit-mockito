@@ -21,7 +21,7 @@ public class ProductService4 {
 	
 	public void enviarParaTransportadora(int id, boolean frete) throws IllegalArgumentException {
 		
-		//TODO - vai retornar o objeto Mockado da classe PRoductServiceTest
+		//vai retornar o objeto Mockado da classe PRoductServiceTest
 		Optional<Product> productOpcional = this.productRepository.findById(id);  
 		
 		if( productOpcional.isPresent() ) {
